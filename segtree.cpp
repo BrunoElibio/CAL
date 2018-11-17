@@ -38,7 +38,7 @@ int soma(int nodeNumber,int start,int end,int posStart,int posEnd){
     left = 2*nodeNumber;
     right = 2*nodeNumber + 1;
 
-    return soma(left,start,mid,posStart,posEnd) + soma(right,mid+1,end,posStart,posEnd);;
+    return soma(left,start,mid,posStart,posEnd) + soma(right,mid+1,end,posStart,posEnd);
 }
 
 int main (){
